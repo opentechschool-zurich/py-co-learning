@@ -23,9 +23,9 @@ If you forgot to add Python to the path, here are detailed instructions on how t
 
 ## Install Atom with Python support
 
-- Get Atom from https://atom.io
-- Run the Atom installer and make sure that that you have a comfortable way to start it (in the Dock, on the Desktop, ...).
-- Launch Atom
+- Get Atom from <https://atom.io>.
+- Run the Atom installer and make sure that you have a comfortable way to start it (in the Dock, on the Desktop, ...).
+- Launch Atom.
 - By default, Atom should provide the syntax highlighting for files that end in `.py`.
 - In the preferences, add the "script" package (it could be in the "Packages" or in the "Install" section, filled under the Community Packages.  
   This package will allow you to run your scripts (or part of them) inside of the Atom editor.
