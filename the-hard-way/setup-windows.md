@@ -12,8 +12,10 @@ Both are about installing Python and the Atom editor, but here
 ## Install Python
 
 - Get Python 3 from the https://python.org website.
-- Run the Python 3 installer and make sure that you check the checkbox about adding Python to the PATH  
+- Run the Python 3 installer and __make sure that you check the checkbox about adding Python to the PATH__:
   ![](images/python-win-installer.png)
+
+It's fine to use the default "Install Now" setting, but you really should check the "Add Python 3 to PATH" checkbox befaure clicking on it!
 
 If you forgot to add Python to the path, here are detailed instructions on how to manually do it:
 
