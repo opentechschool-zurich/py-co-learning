@@ -1,0 +1,3 @@
+- happy.py: A first -- a bit naïve -- solution
+- happy-no-strings.py: Does not use strings for finding the digits
+- happy-no-cycle.py: The real solution, without hard coding the maximum depth of the cycle.
