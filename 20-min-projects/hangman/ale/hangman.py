@@ -1,8 +1,8 @@
 word = input('the word : ')
 found = ''
-errors = 0
+lifes = 4
 
-while errors < 4:
+while lifes > 0:
     output = ''.join([letter if letter in found else '-'
                       for letter in word])
     print(output)
@@ -13,6 +13,6 @@ while errors < 4:
     if guess in word:
         found += guess
     else:
-        errors += 1
+        lifes -= 1
 else:
     print('you\'ve lost')
