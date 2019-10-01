@@ -1,6 +1,5 @@
 word = input('the word : ')
 found = ''
-guess = ' '
 errors = 0
 
 while errors < 4:
