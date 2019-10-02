@@ -3,7 +3,7 @@ found = ' '
 lifes = 4
 
 while lifes > 0:
-    output = ''.join([letter if letter.lower() in found else '-'
+    output = ''.join([letter if letter.lower() in found else '_'
                       for letter in word])
     print(output)
     if output == word:
