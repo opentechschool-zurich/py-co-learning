@@ -1,4 +1,4 @@
-word = input('the word : ')
+word = input('the word: ')
 found = ' '
 lifes = 4
 
