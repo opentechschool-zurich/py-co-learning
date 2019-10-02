@@ -1,0 +1,25 @@
+word = 'tech'
+
+guess = ""
+found = ""
+wrong = 0
+while wrong < 4:
+    # print([letter if letter in found else "_" for letter in word])
+    finished = True
+    for letter in word:
+        if letter in found:
+            print(letter)
+        else:
+            print("_")
+            finished = False
+    if finished:
+        break
+    guess = input("letter: ")
+    if guess in word:
+        found += guess
+    else:
+        wrong += 1
+if wrong == 4:
+    print("ahi ahi ahi aaah")
+else:
+    print("yeah!")

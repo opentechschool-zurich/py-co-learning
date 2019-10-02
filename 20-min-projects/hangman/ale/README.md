@@ -5,7 +5,7 @@ This is my short and dense solution.
 Steps towards a _simple_ solution:
 
 1. Define a word and print each letter, one at a time.
-2. Print a dash (`-`) in place of each letter.
+2. Print an underscore (`_`) in place of each letter.
 3. Read a character from `input()` and print each letter
    - as is, if it matches the input, or
    - or as a dash if it does not match.
