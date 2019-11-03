@@ -24,6 +24,7 @@ def find_permutations(values, total):
 
 def main():
     print(find_permutations([1, 2, 3, 4], 24))
+    print(find_permutations([20, 20, 20, 20], 440))
 
 def test():
     if calculate([], 0, 0) != 0: print('fail 0')
