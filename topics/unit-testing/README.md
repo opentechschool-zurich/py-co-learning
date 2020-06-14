@@ -28,6 +28,11 @@ Questions:
   You can provide "test" data or write code that returns _good_ answers.
 </details>
 
+## Examples
+
+### Split a text in words
+
+Starting code:
 
 ```py
 
@@ -42,14 +47,22 @@ if __name__ == "__main__":
     main()
 ```
 
-Examples:
+Steps:
 
-- split a list of words in words:
-  - start with words separated by spaces: `today is a nice day`
-  - add a comma in the middle `today, is a rainy day`
-  - add a period at the end `today, is a rainy day.`
-  - add a few more separators: `today, is a rainy day: let's start with unit testing`
-  - multiline text:  
-    `today, is a rainy day:`  
-    `let's start with unit testing`
-- numbers and operators
+- start with words separated by spaces: `today is a nice day`
+- add a comma in the middle `today, is a rainy day`
+- add a period at the end `today, is a rainy day.`
+- add a few more separators: `today, is a rainy day: let's start with unit testing`
+- multiline text:  
+`today, is a rainy day:`  
+`let's start with unit testing`
+
+### Number and operators
+
+You have a list of `n` numbers, find the operator that give a specific result:
+
+```
+1 ? 2 ? 3 ? 4 == 24
+1 * 2 * 3 * 4 == 24
+```
+...
