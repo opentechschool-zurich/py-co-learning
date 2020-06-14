@@ -13,14 +13,18 @@ There is much tooling and often a bit of magic aura around Unit Testin. But, if 
 Questions:
 
 <details><summary>Which problems are a better and / or worse fit for unit testing?</summary>
+
   - algorithm are easy
   - collecting data is hard
+
 </details>
 
 <details><summary>What is mocking?</summary>
+
   - database
   - reading files
   - data from the web
+
   You can provide "test" data or write code that returns _good_ answers.
 </details>
 
