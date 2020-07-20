@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Stempi</title>
+  </head>
+  <body>
+    <h1>Stempi</h1>
+    <ul>
+    {% for log_entry in log_entries %}
+    <li>{{ log_entry }}</li>
+    {% endfor %}
+    </ul>
+    <form method="POST">
+      <input type="submit" value="Log it">
+    </form>
+  </body>
+</html>
