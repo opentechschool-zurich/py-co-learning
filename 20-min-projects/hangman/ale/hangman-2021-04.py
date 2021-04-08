@@ -64,8 +64,13 @@ import random
 # https://en.wikipedia.org/w/api.php?format=json&action=query&generator=random&grnnamespace=0&prop=extracts&exintro&explaintext
 with urllib.request.urlopen('https://en.wikipedia.org/w/api.php?format=json&action=query&generator=random&grnnamespace=0&prop=extracts&exintro&explaintext') as url:
     data = json.loads(url.read().decode())
-    word = random.choice([w for w in list(data['query']['pages'].values())[0]['extract'].replace('\n', ' ').translate(str.maketrans('', '', string.punctuation)).translate(str.maketrans('', '', string.digits)).lower().split() if len(w) > 4])
-
+    word = random.choice([w for w in list(data['query']['pages'].values())[0]['extract']
+            .replace('\n', ' ')
+            .translate(str.maketrans('', '', string.punctuation))
+            .translate(str.maketrans('', '', string.digits))
+            .lower()
+            .split()
+        if len(w) > 4])
 # print(word)
 
 solution = ['_'] * len(word)
