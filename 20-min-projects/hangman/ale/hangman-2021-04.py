@@ -64,6 +64,7 @@ import random
 # https://en.wikipedia.org/w/api.php?format=json&action=query&generator=random&grnnamespace=0&prop=extracts&exintro&explaintext
 with urllib.request.urlopen('https://en.wikipedia.org/w/api.php?format=json&action=query&generator=random&grnnamespace=0&prop=extracts&exintro&explaintext') as url:
     data = json.loads(url.read().decode())
+    # print(data)
     word = random.choice([w for w in list(data['query']['pages'].values())[0]['extract']
             .replace('\n', ' ')
             .translate(str.maketrans('', '', string.punctuation))
