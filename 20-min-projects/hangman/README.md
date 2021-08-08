@@ -32,3 +32,14 @@ There is a number of topics you can explore from there:
 - Creating a GUI (ASCII, PyQt, TKinter, ...)
 - Quering APIs to get random words from a random page (Wikipedia)
 - Scarping Websites to get a random word (Newspaper...)
+
+A possible way to approach the exercise:
+
+- first have some code that checks if a letter is in a given word
+- then pick a random word from a list
+- then find out how to use the Wikipedia API (i can give you the link to the documentation if you don't find it)
+- use the Python Requests package to make a request to any Wikipedia API call
+- in the Wikipedia API documentation find out how to get a random page and, then how to get some raw text out of it
+- In Python, filter the resulting text and keep words that are likely to be ok for the game ('the' is not : - )
+- Ask the user for input in the terminal
+- Create a GUI with TKinter or Qt
