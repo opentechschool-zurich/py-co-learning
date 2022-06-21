@@ -2,4 +2,4 @@ geopy==1.19.0
 ipyleaflet==0.10.2
 jupyter==1.0.0
 pandas==0.24.2
-numpy==1.16.3
+numpy==1.22.0
