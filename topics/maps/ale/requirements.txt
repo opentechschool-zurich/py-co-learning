@@ -1,5 +1,5 @@
-geopy==1.19.0
-ipyleaflet==0.10.2
+geopy==2.3.0
+ipyleaflet==0.17.2
 jupyter==1.0.0
-pandas==0.24.2
-numpy==1.16.3
+pandas==2.0.1
+numpy==1.24.3
