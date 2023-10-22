@@ -5,7 +5,6 @@ url = 'https://gitlab.com/api/v4/projects/' + \
 response = requests.get(url)
 
 if response.ok:
-    print('yo')
     print(response.json()[0]['title'])
 else:
     print(response.status_code)
