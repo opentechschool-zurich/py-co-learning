@@ -10,6 +10,12 @@ The only programming language that is used in production for almost all types of
 
 Show the Swiss and South African Flags being drawn by Turtle.
 
+![Switzerland](assets/ch.gif)
+
+![Argentina](assets/ag.gif)
+
+![Sourth Africa](assets/za.gif)
+
 ## Setup the environment
 
 Install Mu-Editor: https://codewith.mu
